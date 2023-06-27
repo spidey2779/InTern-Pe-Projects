@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: yellow; */
+    margin: 0px;
+    padding: 0px;
+    background: url('./marvels-spider-man-miles-morales-photo-mode-dark-background-2560x1440-3444.jpg') top center/cover no-repeat ;
+}
+
+
+img{
+    height: 130px;
+    width: 91px;
+    border-radius: 62px;
+    position: relative;
+    top: 10px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:20px;
+    font-family: 'Lilita One', cursive;
+    font-size: 5rem;
+    color: #ff0101;
+}
+.container{
+    z-index: 1;
+    background-color: gray;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 370px;
+    border: 4px solid black;
+    padding: 32px 0px 27px 0px;
+    border-radius: 20px;
+}
+
+.button {
+    padding:2px 2px;
+    width: auto;
+    margin:auto;
+    
+   
+}
+.button button{
+    font-size: 2rem;
+    background-color: #c8f0f0;
+    width: 44px;
+    height: 44px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 3px;
+    padding: 4px;
+    cursor: pointer;
+}
+.spbtn{
+    margin: auto;
+    display: flex;
+    align-items: start;
+    width: 198px;
+}
+
+.spbtn button{
+    
+    background-color: yellow;
+    font-size: 1.7rem;
+    border: 3px solid black;
+    border-radius: 7px;
+    margin: 4px 0px;
+    cursor: pointer;
+}
+.clearbtn{
+    width: 71px;
+}
+.container div .clearbtn{
+    margin-left: 20px;
+    background-color: #ff8787;
+}
+.container div .clearbtn:hover{
+    background-color: #f12727;
+    cursor: pointer;
+}
+.Acbtn{
+    width:55px;
+    margin-right: 40px;
+}
+/* input */
+.text{
+    margin:10px auto
+}
+input{
+    font-size: 1.4rem;
+    width: 208px;
+    padding: 7px 5px;
+}
+/*symbol*/
+.button  .symbol{
+    background-color: #ff9e0d;
+}
+/* equals  */
+.button .eqbtn{
+    background-color: #5aff5a;
+}
+.button .eqbtn:hover{
+    background-color: #0ebd19;
+}
